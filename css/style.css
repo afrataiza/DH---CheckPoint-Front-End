@@ -47,6 +47,9 @@ h2 {
     width: 330px;
     height: 500px;
     background-color: beige;
+    box-shadow: 1px 4px 13px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .card img {
@@ -54,6 +57,7 @@ h2 {
     height: 200px;
     object-fit: cover;
     margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
 }
 
 .card p {
