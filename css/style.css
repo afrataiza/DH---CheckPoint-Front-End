@@ -8,14 +8,48 @@ body {
     background-image: url(../images/bandeira-do-fumo-de-sergipe-estado-brasil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 100%;
 }
 
 .banner {
     background-image: url(../images/banner-principal_sergipe.jpg);
-    width: 100%;
+    width: 100vw;
     height: 532px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100%;
+}
+
+.cards h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    height: 500px;
+    background-color: beige;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card p {
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 20px;
 }
