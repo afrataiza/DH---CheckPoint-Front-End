@@ -4,6 +4,44 @@
   box-sizing: border-box;
 }
 
+.logo {
+  margin-right: 300px;
+}
+
+.logo img{
+  border: 1px solid white;
+  border-radius: 36px;
+  margin-top: 10px;
+  margin-bottom: 07px;
+  height: 70px;
+  width: 190px;
+}
+#menu-h ul{
+  display: flex;
+  background-color: #17885b;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+#menu-h ul li {
+  display: inline-block;
+  text-align: center;
+}
+#menu-h ul li a {
+  color: #fff;
+  padding: 17px;
+  display: inline-block;
+  text-decoration: none;    
+  transition: background .4s;
+  border: 1px solid white;
+  border-radius: 36px;
+}
+#menu-h ul li a:hover {
+  background-color:#789217;
+}
+
+
 body {
   background-image: url(../images/bandeira.png);
   background-repeat: no-repeat;
@@ -88,6 +126,28 @@ h2 {
 }
 
 @media(max-width: 425px) {
+/*===================Gilmar-Inicio========================*/
+header ul {
+    margin-bottom: 07px;       
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+header ul li {
+    margin-bottom: 07px;
+}
+.logo {
+    margin: 0;
+}
+.logo img{
+    width: 90vw;
+}
+/*===================Gilmar - Final========================*/
+
   .banner {
       display: none;
   }
