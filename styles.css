@@ -1,0 +1,34 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 350px;
+  background-color: var(--secondary-backgroud);
+}
+
+footer .perfil {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30%;
+  height: 100%;
+  margin: 5px 0px 0px 0px;
+
+}
+
+footer #imgPerfilRafa {
+  background-image: url(/DH---CheckPoint-Front-End/img/imgPerfilRafa.jpg)
+
+ 
+}
+
+footer #imgPerfilAfra {
+  background-image: url(/DH---CheckPoint-Front-End/img/afra.jpg);
+}
+
+footer #imgPerfilGilmar{
+  background-image: url(//DH---CheckPoint-Front-End/img/gilmar.jpg);
+}
+
+footer a {
+  margin-left: 1em;
+}
