@@ -36,6 +36,7 @@
   transition: background .4s;
   border: 1px solid white;
   border-radius: 36px;
+  width: 120px;
 }
 #menu-h ul li a:hover {
   background-color:#789217;
@@ -46,8 +47,7 @@ body {
   background-image: url(../images/bandeira.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  
+  height: 100%;
 }
 
 .banner {
@@ -127,6 +127,9 @@ h2 {
 
 @media(max-width: 425px) {
 /*===================Gilmar-Inicio========================*/
+header {
+  margin-bottom: 50px;
+}
 header ul {
     margin-bottom: 07px;       
     display: flex;
@@ -171,23 +174,37 @@ header ul li {
   .video iframe {
       height: 300px;
   }
+
+  footer {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  footer .perfil {
+    height: 120px;
+    padding-bottom: 10px;
+  }
+
+  .perfil img, a {
+    margin-top: 10px;
+  }
+
 }
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100vw;
-  height: 150px;
-  background-color: var(--secondary-backgroud);
+  height: 120px;
+  background-color: #17885b;
 }
 
 footer .perfil {
  display: flex;
  align-items: center;
  justify-content: center;
-  width: 30%;
+  width: 100%;
   height: 100%;
-  margin: 5px 0px 0px 0px;
-
+  background-color: #17885b;
 }
 
 .perfil img{
@@ -197,4 +214,6 @@ footer .perfil {
 }
 footer a {
   margin-left: 1em;
+  width: 36px;
+  height: 36px;
 }
